@@ -4,7 +4,7 @@ function shortcut(s1, s2) {
   }
 
   // Get the initial letter of each string and concatenate them
-  const result = s1.charAt(0).toUpperCase() + s2.charAt(0).toLowerCase();
+  const result = s1.charAt(0) + s2.charAt(0);
 
   return result;
 }
